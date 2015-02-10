@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "151"
+	"mapversion" "153"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "151"
+	"mapversion" "153"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11245,42 +11245,6 @@ entity
 }
 entity
 {
-	"id" "2723"
-	"classname" "prop_door_rotating"
-	"ajarangles" "0 287 0"
-	"angles" "0 270 0"
-	"axis" "-13 -254 86, -13 -254 86"
-	"disableshadows" "0"
-	"distance" "80"
-	"dmg" "0"
-	"forceclosed" "0"
-	"hardware" "1"
-	"health" "0"
-	"model" "models/props_c17/door01_left.mdl"
-	"modelscale" "1.0"
-	"opendir" "2"
-	"returndelay" "8"
-	"skin" "1"
-	"soundlockedoverride" "DoorHandles.Locked2"
-	"soundopenoverride" "Doors.FullOpen17"
-	"spawnflags" "0"
-	"spawnpos" "3"
-	"speed" "200"
-	connections
-	{
-		"OnFullyClosed" "door,Lock,,0,-1"
-	}
-	"origin" "-13 -254 86"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
 	"id" "12601"
 	"classname" "prop_door_rotating"
 	"ajarangles" "0 0 0"
@@ -14752,7 +14716,7 @@ entity
 	"origin" "-77.1373 112 56"
 	editor
 	{
-		"color" "0 164 121"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11768]"
@@ -14794,10 +14758,145 @@ entity
 	"origin" "-88 70 35"
 	editor
 	{
-		"color" "0 186 175"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -11768]"
+	}
+}
+entity
+{
+	"id" "2723"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 287 0"
+	"angles" "0 270 0"
+	"axis" "-13 -254 86, -13 -254 86"
+	"disableshadows" "0"
+	"distance" "80"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "1"
+	"health" "0"
+	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"opendir" "2"
+	"returndelay" "8"
+	"skin" "1"
+	"soundlockedoverride" "DoorHandles.Locked2"
+	"soundopenoverride" "Doors.FullOpen17"
+	"spawnflags" "0"
+	"spawnpos" "3"
+	"speed" "200"
+	"targetname" "mainDoor"
+	connections
+	{
+		"OnFullyClosed" "door,Lock,,0,-1"
+	}
+	"origin" "-13 -254 86"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "25366"
+	"classname" "trigger_proximity"
+	"origin" "7 -185 86"
+	"radius" "256"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "mainDoorTrigger"
+	connections
+	{
+		"OnStartTouch" "mainDoor,Close,,0,-1"
+		"OnStartTouch" "mainDoor,Lock,,0,-1"
+	}
+	solid
+	{
+		"id" "25362"
+		side
+		{
+			"id" "4325"
+			"plane" "(-32 -171 140.5) (44.9014 -171 140.5) (46 -199 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4324"
+			"plane" "(-30.9014 -199 31.5) (46 -199 31.5) (44.9014 -171 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -4] 0.25"
+			"vaxis" "[0 -1 0 60] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4323"
+			"plane" "(-32 -171 140.5) (-30.9014 -199 140.5) (-30.9014 -199 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.0392052 1 0 -60] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4322"
+			"plane" "(44.9014 -171 31.5) (46 -199 31.5) (46 -199 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.0392052 1 0 -60] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4321"
+			"plane" "(44.9014 -171 140.5) (-32 -171 140.5) (-32 -171 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 20.4285] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4320"
+			"plane" "(46 -199 31.5) (-30.9014 -199 31.5) (-30.9014 -199 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 20.4285] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
