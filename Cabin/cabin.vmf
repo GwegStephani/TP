@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "153"
+	"mapversion" "162"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "153"
+	"mapversion" "162"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12517,9 +12517,10 @@ entity
 	"opendir" "2"
 	"returndelay" "-1"
 	"skin" "2"
-	"spawnflags" "8192"
+	"spawnflags" "10240"
 	"spawnpos" "0"
 	"speed" "100"
+	"targetname" "scaryBedroomDoor"
 	"origin" "-31 163 86"
 	editor
 	{
@@ -14805,8 +14806,8 @@ entity
 {
 	"id" "25366"
 	"classname" "trigger_proximity"
-	"origin" "7 -185 86"
-	"radius" "256"
+	"origin" "8.5 -24 95.75"
+	"radius" "100"
 	"spawnflags" "1"
 	"StartDisabled" "0"
 	"targetname" "mainDoorTrigger"
@@ -14821,10 +14822,10 @@ entity
 		side
 		{
 			"id" "4325"
-			"plane" "(-32 -171 140.5) (44.9014 -171 140.5) (46 -199 140.5)"
+			"plane" "(-44.4644 -38 160) (-46 -10 160) (61.4634 -10 160)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4] 0.25"
-			"vaxis" "[0 -1 0 60] 0.25"
+			"uaxis" "[1 0 0 52] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14832,10 +14833,10 @@ entity
 		side
 		{
 			"id" "4324"
-			"plane" "(-30.9014 -199 31.5) (46 -199 31.5) (44.9014 -171 31.5)"
+			"plane" "(-46 -10 31.5) (-44.4617 -38 31.5) (63 -38 31.5)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4] 0.25"
-			"vaxis" "[0 -1 0 60] 0.25"
+			"uaxis" "[1 0 0 52] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14843,9 +14844,9 @@ entity
 		side
 		{
 			"id" "4323"
-			"plane" "(-32 -171 140.5) (-30.9014 -199 140.5) (-30.9014 -199 31.5)"
+			"plane" "(-44.4647 -38 31.5) (-46 -10 31.5) (-46 -10 160)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.0392052 1 0 -60] 0.25"
+			"uaxis" "[-0.0547468 1 0 -3.05786] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14854,9 +14855,9 @@ entity
 		side
 		{
 			"id" "4322"
-			"plane" "(44.9014 -171 31.5) (46 -199 31.5) (46 -199 140.5)"
+			"plane" "(61.4647 -10 31.5) (63 -38 31.5) (63 -38 160)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[-0.0392052 1 0 -60] 0.25"
+			"uaxis" "[-0.0547468 1 0 -3.05786] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14865,9 +14866,9 @@ entity
 		side
 		{
 			"id" "4321"
-			"plane" "(44.9014 -171 140.5) (-32 -171 140.5) (-32 -171 31.5)"
+			"plane" "(-46 -10 31.5) (61.4648 -10 31.5) (61.4661 -10 160)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 20.4285] 0.25"
+			"uaxis" "[1 0 0 12.4285] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14876,9 +14877,9 @@ entity
 		side
 		{
 			"id" "4320"
-			"plane" "(46 -199 31.5) (-30.9014 -199 31.5) (-30.9014 -199 140.5)"
+			"plane" "(63 -38 31.5) (-44.4606 -38 31.5) (-44.4661 -38 160)"
 			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 20.4285] 0.25"
+			"uaxis" "[1 0 0 12.4285] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -14897,6 +14898,104 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "25846"
+	"classname" "trigger_proximity"
+	"origin" "-126.5 408.5 86"
+	"radius" "100"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "scaryDoorTrigger"
+	connections
+	{
+		"OnStartTouch" "scaryBedroomDoor,Unlock,,0,1"
+		"OnStartTouch" "scaryBedroomDoor,Open,,0.5,1"
+	}
+	solid
+	{
+		"id" "25841"
+		side
+		{
+			"id" "4343"
+			"plane" "(-163 463 140.5) (-90 463 140.5) (-90 354 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4342"
+			"plane" "(-163 354 31.5) (-90 354 31.5) (-90 463 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4341"
+			"plane" "(-163 463 140.5) (-163 354 140.5) (-163 354 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 24] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4340"
+			"plane" "(-90 463 31.5) (-90 354 31.5) (-90 354 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 24] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4339"
+			"plane" "(-90 463 140.5) (-163 463 140.5) (-163 463 31.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4338"
+			"plane" "(-90 354 31.5) (-163 354 31.5) (-163 354 140.5)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
