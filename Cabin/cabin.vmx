@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "161"
+	"mapversion" "167"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "161"
+	"mapversion" "167"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12507,7 +12507,7 @@ entity
 	"angles" "0 359.493 0"
 	"axis" "-31 163 86, -31 163 86"
 	"disableshadows" "0"
-	"distance" "90"
+	"distance" "15"
 	"dmg" "0"
 	"forceclosed" "0"
 	"hardware" "1"
@@ -12521,6 +12521,11 @@ entity
 	"spawnpos" "0"
 	"speed" "100"
 	"targetname" "scaryBedroomDoor"
+	connections
+	{
+		"OnOpen" "scaryBedroomDoor,SetRotationDistance,90,0,-1"
+		"OnClose" "scaryBedroomDoor,Open,,0,1"
+	}
 	"origin" "-31 163 86"
 	editor
 	{
