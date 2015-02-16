@@ -6918,3 +6918,643 @@ Level flags = 0
 Total triangle count: 4006
 Writing d:\development\tp\cabin\cabin.bsp
 6 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/cabin/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (44180 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 235 texinfos to 138
+Reduced 28 texdatas to 24 (619 bytes to 504)
+Writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.prt
+ 274 portalclusters
+ 728 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 192 visible clusters (0.81%)
+Total clusters visible: 23682
+Average clusters visible: 86
+Building PAS...
+Average clusters audible: 265
+visdatasize:20132  compressed from 21920
+writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+1684 faces
+1102014 square feet [158690128.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1684 patches before subdivision
+77374 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 22614018, max 874
+transfer lists: 172.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0283 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                127/8192         1524/98304    ( 1.6%) 
+brushsides             815/65536        6520/524288   ( 1.2%) 
+planes                 442/65536        8840/1310720  ( 0.7%) 
+vertexes              2026/65536       24312/786432   ( 3.1%) 
+nodes                  585/65536       18720/2097152  ( 0.9%) 
+texinfos               138/12288        9936/884736   ( 1.1%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1684/65536       94304/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              403/65536       22568/3670016  ( 0.6%) 
+leaves                 589/65536       18848/2097152  ( 0.9%) 
+leaffaces             1947/65536        3894/131072   ( 3.0%) 
+leafbrushes            510/65536        1020/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             8974/512000      35896/2048000  ( 1.8%) 
+edges                 4740/256000      18960/1024000  ( 1.9%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             87/32768         870/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1263/65536        2526/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                12/512          4224/180224   ( 2.3%) 
+LDR lightdata         [variable]     2560488/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       20132/16777216 ( 0.1%) 
+entdata               [variable]       70453/393216   (17.9%) 
+LDR ambient table      589/65536        2356/262144   ( 0.9%) 
+HDR ambient table      589/65536        2356/262144   ( 0.9%) 
+LDR leaf ambient       286/65536        8008/1835008  ( 0.4%) 
+HDR leaf ambient       589/65536       16492/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/984      ( 0.1%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]       44180/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4006
+Writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+4 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/cabin/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (53876 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 261 texinfos to 152
+Reduced 28 texdatas to 24 (619 bytes to 504)
+Writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.prt
+ 299 portalclusters
+ 772 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 240 visible clusters (0.89%)
+Total clusters visible: 26965
+Average clusters visible: 90
+Building PAS...
+Average clusters audible: 291
+visdatasize:23538  compressed from 23920
+writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+1778 faces
+1103120 square feet [158849376.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1778 patches before subdivision
+78044 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23063936, max 876
+transfer lists: 176.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0270 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                155/8192         1860/98304    ( 1.9%) 
+brushsides            1050/65536        8400/524288   ( 1.6%) 
+planes                 624/65536       12480/1310720  ( 1.0%) 
+vertexes              2251/65536       27012/786432   ( 3.4%) 
+nodes                  630/65536       20160/2097152  ( 1.0%) 
+texinfos               152/12288       10944/884736   ( 1.2%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1778/65536       99568/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              478/65536       26768/3670016  ( 0.7%) 
+leaves                 634/65536       20288/2097152  ( 1.0%) 
+leaffaces             2065/65536        4130/131072   ( 3.2%) 
+leafbrushes            566/65536        1132/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9762/512000      39048/2048000  ( 1.9%) 
+edges                 5211/256000      20844/1024000  ( 2.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                12/512          4224/180224   ( 2.3%) 
+LDR lightdata         [variable]     2574908/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       23538/16777216 ( 0.1%) 
+entdata               [variable]       70453/393216   (17.9%) 
+LDR ambient table      634/65536        2536/262144   ( 1.0%) 
+HDR ambient table      634/65536        2536/262144   ( 1.0%) 
+LDR leaf ambient       311/65536        8708/1835008  ( 0.5%) 
+HDR leaf ambient       634/65536       17752/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/984      ( 0.1%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]       53876/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4307
+Writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+5 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/cabin/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (55908 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 277 texinfos to 175
+Reduced 28 texdatas to 24 (619 bytes to 504)
+Writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.prt
+ 318 portalclusters
+ 888 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 233 visible clusters (0.78%)
+Total clusters visible: 29995
+Average clusters visible: 94
+Building PAS...
+Average clusters audible: 309
+visdatasize:26350  compressed from 25440
+writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+1785 faces
+1104459 square feet [159042176.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1785 patches before subdivision
+78449 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23176771, max 891
+transfer lists: 176.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0272 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                161/8192         1932/98304    ( 2.0%) 
+brushsides            1019/65536        8152/524288   ( 1.6%) 
+planes                 526/65536       10520/1310720  ( 0.8%) 
+vertexes              2224/65536       26688/786432   ( 3.4%) 
+nodes                  655/65536       20960/2097152  ( 1.0%) 
+texinfos               175/12288       12600/884736   ( 1.4%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1785/65536       99960/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              509/65536       28504/3670016  ( 0.8%) 
+leaves                 659/65536       21088/2097152  ( 1.0%) 
+leaffaces             2068/65536        4136/131072   ( 3.2%) 
+leafbrushes            549/65536        1098/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9880/512000      39520/2048000  ( 1.9%) 
+edges                 5251/256000      21004/1024000  ( 2.1%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                12/512          4224/180224   ( 2.3%) 
+LDR lightdata         [variable]     2613108/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       26350/16777216 ( 0.2%) 
+entdata               [variable]       70453/393216   (17.9%) 
+LDR ambient table      659/65536        2636/262144   ( 1.0%) 
+HDR ambient table      659/65536        2636/262144   ( 1.0%) 
+LDR leaf ambient       330/65536        9240/1835008  ( 0.5%) 
+HDR leaf ambient       659/65536       18452/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/984      ( 0.1%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]       55908/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4286
+Writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+5 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/cabin/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (55908 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 277 texinfos to 176
+Reduced 28 texdatas to 24 (619 bytes to 504)
+Writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.prt
+ 318 portalclusters
+ 876 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 222 visible clusters (0.74%)
+Total clusters visible: 30050
+Average clusters visible: 94
+Building PAS...
+Average clusters audible: 310
+visdatasize:26342  compressed from 25440
+writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+1784 faces
+1104455 square feet [159041632.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1784 patches before subdivision
+78454 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23207270, max 892
+transfer lists: 177.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0267 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                161/8192         1932/98304    ( 2.0%) 
+brushsides            1019/65536        8152/524288   ( 1.6%) 
+planes                 524/65536       10480/1310720  ( 0.8%) 
+vertexes              2222/65536       26664/786432   ( 3.4%) 
+nodes                  654/65536       20928/2097152  ( 1.0%) 
+texinfos               176/12288       12672/884736   ( 1.4%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1784/65536       99904/3670016  ( 2.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              509/65536       28504/3670016  ( 0.8%) 
+leaves                 658/65536       21056/2097152  ( 1.0%) 
+leaffaces             2083/65536        4166/131072   ( 3.2%) 
+leafbrushes            550/65536        1100/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9874/512000      39496/2048000  ( 1.9%) 
+edges                 5246/256000      20984/1024000  ( 2.0%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1428/65536        2856/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                12/512          4224/180224   ( 2.3%) 
+LDR lightdata         [variable]     2612932/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       26342/16777216 ( 0.2%) 
+entdata               [variable]       70453/393216   (17.9%) 
+LDR ambient table      658/65536        2632/262144   ( 1.0%) 
+HDR ambient table      658/65536        2632/262144   ( 1.0%) 
+LDR leaf ambient       330/65536        9240/1835008  ( 0.5%) 
+HDR leaf ambient       658/65536       18424/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/984      ( 0.1%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]       55908/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4282
+Writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+5 seconds elapsed
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\common\half-life 2\hl2\materials
+Loading D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/cabin/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (58820 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 295 texinfos to 194
+Reduced 28 texdatas to 24 (619 bytes to 504)
+Writing D:\Stephen Docs\Misc\Game Design\TP\Cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+reading d:\stephen docs\misc\game design\tp\cabin\cabin.prt
+ 347 portalclusters
+ 972 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 259 visible clusters (0.76%)
+Total clusters visible: 34266
+Average clusters visible: 98
+Building PAS...
+Average clusters audible: 338
+visdatasize:30625  compressed from 33312
+writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+1882 faces
+1104472 square feet [159044000.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+1882 patches before subdivision
+78732 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23592948, max 916
+transfer lists: 180.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0271 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                169/8192         2028/98304    ( 2.1%) 
+brushsides            1076/65536        8608/524288   ( 1.6%) 
+planes                 552/65536       11040/1310720  ( 0.8%) 
+vertexes              2363/65536       28356/786432   ( 3.6%) 
+nodes                  714/65536       22848/2097152  ( 1.1%) 
+texinfos               194/12288       13968/884736   ( 1.6%) 
+texdata                 24/2048          768/65536    ( 1.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1882/65536      105392/3670016  ( 2.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              539/65536       30184/3670016  ( 0.8%) 
+leaves                 718/65536       22976/2097152  ( 1.1%) 
+leaffaces             2179/65536        4358/131072   ( 3.3%) 
+leafbrushes            595/65536        1190/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            10517/512000      42068/2048000  ( 2.1%) 
+edges                 5597/256000      22388/1024000  ( 2.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            107/32768        1070/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1590/65536        3180/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                12/512          4224/180224   ( 2.3%) 
+LDR lightdata         [variable]     2618440/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       30625/16777216 ( 0.2%) 
+entdata               [variable]       70453/393216   (17.9%) 
+LDR ambient table      718/65536        2872/262144   ( 1.1%) 
+HDR ambient table      718/65536        2872/262144   ( 1.1%) 
+LDR leaf ambient       359/65536       10052/1835008  ( 0.5%) 
+HDR leaf ambient       718/65536       20104/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/984      ( 0.1%) 
+pakfile               [variable]      212164/0        ( 0.0%) 
+physics               [variable]       58820/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4613
+Writing d:\stephen docs\misc\game design\tp\cabin\cabin.bsp
+5 seconds elapsed
